@@ -1,0 +1,27 @@
+--- 
+title: "Solutions Manual for Numerical Linear Algebra"
+author: "Johan Larsson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [library.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a solutions manual for the book Numerical Linear Algebra by Trefethen and Bau."
+---
+
+# A Solutions Manual
+
+This is an *unofficial* solutions manual for @trefethen1997. I happily
+accept additions to the solutions through pull requests on github.
+
+## Compiling this Book
+
+To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+
+<!-- ```{r include=FALSE} -->
+<!-- # automatically create a bib database for R packages -->
+<!-- knitr::write_bib(c( -->
+<!--   .packages(), 'bookdown', 'knitr', 'rmarkdown' -->
+<!-- ), 'packages.bib') -->
+<!-- ``` -->
